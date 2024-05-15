@@ -15,5 +15,4 @@ async function disconnectFromDatabase(){
         throw new Error("Cannot Connect To MongoDB");
     }
 }
-
 export {connectToDatabase,disconnectFromDatabase};
